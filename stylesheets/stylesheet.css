@@ -423,56 +423,51 @@ Small Device Styles
 }
 
 
-/*MY OWN*/
+/*******************************************************************************
+Personal
+*******************************************************************************/
 
-@font-face
-{
-font-family: texItalic;
-src: url('../resources/fonts/texgyreschola-italic.otf');
+@font-face{
+    font-family: texItalic;
+    src: url('../resources/fonts/texgyreschola-italic.otf');
 }
 
-
-
 html{
-
     height: 100%;
     width: 100%;
 }
 
 body{
-  height: 100%;
+    height: 100%;
     width: 100%;
 }
+
 #main_content_wrap{
-      height: 100%;
-      width: 100%;
-
-
-}
-#tagline
-{
-width: 100%;
-text-align: center;
-font-size: 5em;
-color: #EEEEEE;
-padding: 8% 0px 0px 0px;
-font-family: texItalic;
-position: absolute;
-z-index: 1;
+    height: 100%;
+    width: 100%;
 }
 
-
-  #background_color_wrap {
+#background_color_wrap {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom right,#d38312,#a83279);
-  }
+}
 
-  #background_image_wrap {
-    opacity: .5;
+#tagline{
+    width: 100%;
+    padding: 8% 0px 0px 0px;
+    position: absolute;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: texItalic;
+    font-size: 5em;
+    z-index: 1;
+}
+
+#background_image_wrap {
     height: 100%;
     width: 100%;
+    opacity: .8;
     background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
-    background-size:   cover;
-    background-color:#cccccc;
-  }
+    background-size: cover;
+}
