@@ -422,6 +422,17 @@ Small Device Styles
 
 }
 
+
+/*MY OWN*/
+
+@font-face
+{
+font-family: texItalic;
+src: url('../resources/fonts/texgyreschola-italic.otf');
+}
+
+
+
 html{
 
     height: 100%;
@@ -438,7 +449,10 @@ body{
 
 
 }
-
+#tagline
+{
+font-family: texItalic;
+}
   #background_image_wrap {
     height: 100%;
     width: 100%;
