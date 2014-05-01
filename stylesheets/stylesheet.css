@@ -422,6 +422,11 @@ Small Device Styles
 
 }
 
+html{
+
+    height: 100%;
+    width: 100%;
+}
 #main_content_wrap{
       height: 100%;
       width: 100%;
