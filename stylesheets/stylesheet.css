@@ -457,6 +457,7 @@ font-size: 5em;
 color: #EEEEEE;
 padding: 8% 0px 0px 0px;
 font-family: texItalic;
+opacity: 1;
 }
 
 
@@ -465,8 +466,9 @@ font-family: texItalic;
     width: 100%;
     background-image: linear-gradient(to bottom right,#d38312,#a83279);
   }
-  
+
   #background_image_wrap {
+    opacity: .5;
     height: 100%;
     width: 100%;
     background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
