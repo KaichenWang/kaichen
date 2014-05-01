@@ -422,9 +422,16 @@ Small Device Styles
 
 }
 
-#background_image_wrap {
-  height: 100%;
-  width: 500px;
-  background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
-  background-color:#cccccc;
+#main_content_wrap{
+      height: 100%;
+      width: 100%;
+
+
 }
+
+  #background_image_wrap {
+    height: 100%;
+    width: 100%;
+    background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
+    background-color:#cccccc;
+  }
