@@ -462,5 +462,6 @@ font-family: texItalic;
     height: 100%;
     width: 100%;
     background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
+    background-size:   cover;
     background-color:#cccccc;
   }
