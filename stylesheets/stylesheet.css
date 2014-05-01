@@ -458,6 +458,14 @@ color: #EEEEEE;
 padding: 8% 0px 0px 0px;
 font-family: texItalic;
 }
+
+
+  #background_color_wrap {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,#d38312,#a83279);
+  }
+  
   #background_image_wrap {
     height: 100%;
     width: 100%;
