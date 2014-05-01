@@ -429,7 +429,8 @@ Personal
 
 @font-face{
     font-family: texItalic;
-    src: url('../resources/fonts/texgyreschola-italic.otf');
+    src: url('../resources/fonts/texgyreschola-italic.eot'); 
+    src: url('../resources/fonts/texgyreschola-italic.woff') format('woff'), url('../resources/fonts/texgyreschola-italic.otf') format('opentype'); 
 }
 
 html{
@@ -450,7 +451,14 @@ body{
 #background_color_wrap {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom right,#d38312,#a83279);
+    background: #d38312; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #d38312 0%, #a83279 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#d38312), color-stop(100%,#a83279)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #d38312 0%,#a83279 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #d38312 0%,#a83279 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #d38312 0%,#a83279 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #d38312 0%,#a83279 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d38312', endColorstr='#a83279',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #tagline{
