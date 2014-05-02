@@ -475,7 +475,9 @@ body{
 #background_image_wrap {
     height: 100%;
     width: 100%;
-    opacity: .8;
     background: url('../resources/images/CanonAF7_035_ADJ_wide.jpg') 50% 50% no-repeat;
     background-size: cover;
+    zoom: 1;
+    filter: alpha(opacity=88);
+    opacity: 0.88;
 }
