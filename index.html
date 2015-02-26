@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css"/>
     <link rel="icon" type="image/ico" href="resources/images/favicon.ico"/>
+    <link href="resources/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
     <title>kaichen</title>
   </head>
 
@@ -17,17 +18,76 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
 
-        <div id="background_color_wrap" class="backColor">
+        <div id="background_wrap_main" class="backColorBox">
+              <div id="background_main" class="backgroundImage"><!-- background image --></div>
               <div id="tagline" class="header">
                   on my way.
               </div>
-              <div id="background_image_wrap" class="image"><!-- background image --></div>
+              <div class="next_section">
+                      <span class="icon"><!-- instagram like icon --></span>
+              </div>
         </div>
+        
+        <div id="background_wrap_portrait" class="backColorBox hidden">
+
+              <div id="background_portrait" class="backgroundImage">background image</div>
+              <div id="tagline" class="header">
+                  kaichen wang
+              </div>
+        </div>
+
+        <div id="background_wrap_instagram" class="backColorBox">
+              <div id="tagline" class="header hidden">
+                  #instagram
+              </div>
+              <div id="instagram_wrap">
+              </div>
+        </div>
+
+        <div id="background_wrap_flickr" class="backColorBox hidden">
+              <div id="background_flickr" class="backgroundImage"><!-- background image --></div>
+              <div id="tagline" class="header">
+                  flickr
+              </div>
+              <div id="flickr_wrap">
+              </div>
+        </div>
+
+        <div id="instagram_overlay_wrap" class="overlayWrap hidden">
+
+              <div class="overlayScreen"><!-- dark overlay --></div>
+
+              <div class="overlayBox">
+                
+                  <div id="instagram_overlay_content">
+
+                    <div class="prevItem" id="prev_instagram"><span class="icon hidden"><!-- prev icon --></span></div>
+                    <div class="nextItem" id="next_instagram"><span class="icon hidden"><!-- next icon --></span></div>
+                    <div class="closeOverlay"><span class="icon"><!-- close icon --></span></div>
+
+                    <div id="instagram_photo"><!-- img --></div>
+                    <div id="instagram_likes">
+                      <span class="icon"><!-- instagram like icon --></span><span id="like_count"><!-- like count --></span>
+                    </div>
+                    <div id="instagram_caption"><!-- caption --></div>
+                  
+                </div>
+              </div>
+
+        </div>
+
     </div> 
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
     </div>
+
+    <!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="resources/javascripts/jquery-1.11.0.min.js">\x3C/script>')</script>
+    <script type="text/javascript" src="resources/javascripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="resources/javascripts/freewall.js"></script>
+    <script type="text/javascript" src="resources/javascripts/main.js"></script>
 
   </body>
 </html>
